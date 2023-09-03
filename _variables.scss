@@ -1,0 +1,17 @@
+$bg-header: rgba(14, 29, 52, 0.9);
+$font-size-template: 16px;
+$color-primary: #0d42ff;
+$color-header-items: grey;
+$nav-links-size: 18px;
+$width-page-template: 85%;
+$color-nav-link-active: white;
+$font-template: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$nav-links-weight: 500;
+$width-50: 100%/2;
+$margin-template: 20px 0 20px 0;
+
+@mixin buttonTemplate{
+        background-color: $color-primary;
+        padding:12px;
+        border-radius: 10px;
+    }
